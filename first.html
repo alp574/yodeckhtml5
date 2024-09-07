@@ -5,7 +5,8 @@
 <script>
   function local_development(){
     // Yodeck HTML5 apps execute start_widget() automatically
-    if (window.location.hostname == "SAR3UN-2445"){
+    // query string triggers local mode
+    if (window.location.search){
       start_widget();
     }
   }
