@@ -1,0 +1,15 @@
+    ];
+
+    const target = images[Math.floor( Math.random() * images.length)];
+
+    let d = document.getElementById("main");
+    d.style["backgroundPosition"] = "top center";
+    d.style["backgroundRepeat"] = "no-repeat";
+    d.style["backgroundImage"] = `url('${target}')`;
+    d.style["backgroundSize"] = `${window.innerWidth}px ${window.innerHeight}px`;
+  }
+</script>
+</head>
+<body onload="javascript:local_development()">
+</body>
+</html>
