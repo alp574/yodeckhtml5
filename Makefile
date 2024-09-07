@@ -4,4 +4,5 @@ index:
 	@cat last.html >> index.html
 
 zip:
-	@zip -r gallery.zip . -x first.html -x last.html -x Makefile -x README.md -x gallery.zip
+	@zip -r gallery.zip . -x first.html -x last.html -x Makefile -x README.md -x gallery.zip \
+		-x LICENSE -x .git/ -x ".git/**"
